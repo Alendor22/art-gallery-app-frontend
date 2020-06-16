@@ -1,6 +1,6 @@
 class API {
 
-  static baseURL = 'http://localhost:3000/api';
+  static baseURL = 'https://artster-api.herokuapp.com/api';
 
   static get(url) {
       return fetch(API.baseURL + url)
