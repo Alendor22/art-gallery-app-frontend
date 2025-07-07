@@ -1,5 +1,20 @@
 # JavaScript-Portfolio-Poject-Art-Gallery_app
 
-- Overview
+## Overview
 
-  The intended use of the Art-Gallery-App is act as a Single-Page-Application, to post/create art/paintings, and post/create artists.  You can also view art that is associated to an artist, delete the artwork, and delete the artist, deleting an artist will subsequently delete that artists paintings as a painting belongs to an artist.  To begin you would select a title for the artwork you'd like to create, a style, and set a price.  Then through the use of a Google Custom Search Engine you would search for an image to add to the form, select an artist from the drop down menu, click create painting and that would send a post fetch request to the back-end adding that painting to the database thus creating the painting.  Like wise you can create an artist by entering the name of the artist, the age, and the gender this as well sends a post fetch request to the back-end creating the artist and adding that artist to the database.  Once an artist is created they are added to the artist selection drop down menu.  If you wanted to delete a painting or artist this would send a delete fetch request to the back-end database thus removing that painting or artist from the database.
+The Art-Gallery-App is a single-page application for creating and managing paintings and artists. Users can add new paintings with images from a Google Custom Search Engine, create artists, and delete records as needed. All data operations are handled by a backend API.
+
+## Requirements
+
+- Any modern web browser
+- Optional: a local web server such as `npx http-server`
+
+## Local Development
+
+1. Clone this repository.
+2. From the project root run `npx http-server` and open the provided URL in your browser. You can alternatively open `index.html` directly without a server.
+
+## Backend API
+
+This frontend expects a backend available at `https://artster-api.herokuapp.com/api` that exposes CRUD endpoints for artists and paintings.
+
