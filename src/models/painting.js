@@ -86,8 +86,8 @@ class Painting {
             <p>Style: ${this.style}</p>
             <p>Price: ${this.price} </p>
         </div>      
-        <button id="${this.id}"<a class="waves-effect waves-light btn-small">Delete Painting:</button></a>
-      </div>  
+        <button id="${this.id}" class="waves-effect waves-light btn-small">Delete Painting</button>
+      </div>
     </div><br>
       `;
   }

@@ -81,7 +81,7 @@ class Artist {
             <P>Artist Name: ${this.name}</P>
             <p>Artist Age: ${this.age}</p>
             <p>Artist Gender: ${this.gender}</p>
-            <button id="${this.id}" <a class="waves-effect waves-light btn-small">Delete Artist:</button></a>
+            <button id="${this.id}" class="waves-effect waves-light btn-small">Delete Artist</button>
           </div>
         </div><br>
       `;
